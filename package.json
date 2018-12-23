@@ -1,0 +1,23 @@
+{
+  "name": "simple-app-nikola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidak/simple-app-nikola.git"
+  },
+  "author": "Nikola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidak/simple-app-nikola/issues"
+  },
+  "homepage": "https://github.com/voidak/simple-app-nikola#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
