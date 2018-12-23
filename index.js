@@ -23,7 +23,7 @@ app.get("/", function(req, res){
         if (err) {
             return console.error('error fetching client from pool', err);
         }
-        client.queru('SELECT * FROM test_data', function(err, result){
+        client.queru('SELECT * FROM public.test_data', function(err, result){
             if (err){
                 return console.error('error running qury', err);
             }
