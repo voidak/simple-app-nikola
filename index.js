@@ -27,7 +27,8 @@ app.get("/", function(req, res){
             if (err){
                 return console.error('error running qury', err);
             }
-            res.render({recipes: result.rows});
+            //res.render({recipes: result.rows});
+            res.send(result);
             done();
         });
     });
