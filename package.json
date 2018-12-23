@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/voidak/simple-app-nikola#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pg": "*",
+    "body-parser": "*",
+    "consolidate": "*",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*"
   }
 }
